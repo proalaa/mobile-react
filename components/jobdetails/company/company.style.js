@@ -4,57 +4,50 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 
 const styles = StyleSheet.create({
   container: {
-    marginVertical: SIZES.medium,
-    justifyContent: "center",
+    flex: 1,
     alignItems: "center",
+    gap: SIZES.xSmall,
   },
   logoBox: {
+    shadowColor: COLORS.gray2,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.6,
+    shadowRadius: 4,
+    borderRadius: SIZES.large,
+    padding: SIZES.xSmall,
+  },
+  logo: {
     width: 80,
     height: 80,
-    justifyContent: "center",
+  },
+  infoBox: {
+    textAlign: "center",
     alignItems: "center",
-    backgroundColor: "#FFF",
-    borderRadius: SIZES.large,
-  },
-  logoImage: {
-    width: "80%",
-    height: "80%",
-  },
-  jobTitleBox: {
-    marginTop: SIZES.small,
+    gap: SIZES.xSmall,
   },
   jobTitle: {
-    fontSize: SIZES.large,
-    color: COLORS.primary,
     fontFamily: FONT.bold,
-    textAlign: "center",
+    fontSize: SIZES.large,
   },
-  companyInfoBox: {
-    marginTop: SIZES.small / 2,
+  employerName: { fontWeight: "500" },
+  employerBox: {
     flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  companyName: {
-    fontSize: SIZES.medium - 2,
-    color: COLORS.primary,
-    fontFamily: FONT.medium,
+    fontSize: SIZES.small,
+    fontFamily: FONT.bold,
   },
   locationBox: {
     flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
   },
-  locationImage: {
-    width: 14,
-    height: 14,
+  locationText: {
+    fontWeight: "300",
+  },
+  locationIcon: {
+    width: 15,
+    height: 15,
     tintColor: COLORS.gray,
-  },
-  locationName: {
-    fontSize: SIZES.medium - 2,
-    color: COLORS.gray,
-    fontFamily: FONT.regular,
-    marginLeft: 2,
   },
 });
 

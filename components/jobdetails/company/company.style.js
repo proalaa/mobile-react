@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
   jobTitle: {
     fontFamily: FONT.bold,
     fontSize: SIZES.large,
+    textAlign: "center",
   },
   employerName: { fontWeight: "500" },
   employerBox: {

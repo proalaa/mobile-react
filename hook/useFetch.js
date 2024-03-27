@@ -36,12 +36,12 @@ const useFetch = (endpoint, params) => {
     fetchData();
   }, []);
 
-  const refetch = () => {
+  const reFetch = () => {
     setIsLoading(true);
     fetchData();
   };
 
-  return { data, isLoading, error, refetch };
+  return { data, isLoading, error, reFetch };
 };
 
 export default useFetch;

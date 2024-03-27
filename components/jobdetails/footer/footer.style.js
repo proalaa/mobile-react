@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     padding: SIZES.small,
     backgroundColor: "#FFF",
     justifyContent: "space-between",
-    alignItems: "center",
+    alignItems: "stretch",
     flexDirection: "row",
   },
   likeBtn: {
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   applyBtn: {
     flex: 1,
     backgroundColor: "#FE7654",
-    height: "100%",
+    height: "fullF",
     justifyContent: "center",
     alignItems: "center",
     marginLeft: SIZES.medium,

@@ -1,14 +1,22 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from "react";
+import { View, Text, Pressable, Image, Linking } from "react-native";
 
-import styles from './footer.style'
+import styles from "./footer.style";
+import Icons from "../../../constants/icons";
+import { useRouter } from "expo-router";
 
-const Footer = () => {
+const Footer = ({ url }) => {
   return (
-    <View>
-      <Text>Footer</Text>
-    </View>
-  )
-}
+    <View style={styles.container}>
+      <Pressable style={styles.likeBtn}>
+        <Image style={styles.likeBtnImage} source={Icons.heart} />
+      </Pressable>
 
-export default Footer
+      <Pressable style={styles.applyBtn} onPress={() => Linking.openURL(url)}>
+        <Text style={styles.applyBtnText}>Apply for the job</Text>
+      </Pressable>
+    </View>
+  );
+};
+
+export default Footer;

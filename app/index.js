@@ -7,7 +7,6 @@ import {
   ScreenHeaderBtn,
   Welcome,
 } from "../components";
-import { useState } from "react";
 export default function Page() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>

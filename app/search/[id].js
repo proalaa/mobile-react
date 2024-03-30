@@ -6,12 +6,7 @@ import {
   Pressable,
   View,
 } from "react-native";
-import {
-  Stack,
-  useLocalSearchParams,
-  useRouter,
-  useSearchParams,
-} from "expo-router";
+import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Text, SafeAreaView } from "react-native";
 import axios from "axios";
 
@@ -39,7 +34,7 @@ const JobSearch = () => {
         url: `https://jsearch.p.rapidapi.com/search`,
         headers: {
           "X-RapidAPI-Key":
-            "5df38058c8mshc374f1eb5b305f5p1b44aajsn9a5de44d542f",
+            "6967ce1efemsh3e0e9d935ad745fp148ee2jsnd23254a03651",
           "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
         },
         params: {

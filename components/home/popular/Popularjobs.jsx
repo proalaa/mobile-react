@@ -6,7 +6,6 @@ import {
   Pressable,
   FlatList,
   ActivityIndicator,
-  Pressable,
 } from "react-native";
 
 import styles from "./popularjobs.style";

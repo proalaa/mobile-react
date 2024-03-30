@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { View, Text, Image, Pressable } from "react-native";
 
 import styles from "./welcome.style";
-import { FlatList, TextInput } from "react-native-gesture-handler";
-import { Pressable } from "react-native";
+import { FlatList, TextInput } from "react-native";
 import { SIZES, icons } from "../../../constants";
 import { useRouter } from "expo-router";
 

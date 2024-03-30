@@ -7,7 +7,21 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "react_native_course",
-    "slug": "react_native_course"
+    "name": "sejob",
+    "slug": "sejob",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "1aec82ab-e802-468c-b584-82f399db5a85"
+      }
+    },
+    "android": {
+      "package": "com.aladdinmoh.sejob"
+    },
+    "ios": {
+      "bundleIdentifier": "com.aladdinmoh.sejob"
+    }
   }
 }
